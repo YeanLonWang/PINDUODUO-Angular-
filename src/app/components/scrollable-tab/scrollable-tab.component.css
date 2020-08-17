@@ -1,0 +1,28 @@
+ul {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  list-style: none;
+  display: flex;
+}
+ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  padding: 0 5px;
+}
+.active {
+  color: red;
+}
+
+.indictor {
+  background-color: brown;
+  height: 2px;
+  width: 2em;
+  margin-top: 2px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
